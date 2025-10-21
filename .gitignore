@@ -73,4 +73,7 @@ Dataset/
 *.gitattributes
 old_data/
 
+# Ignore local 'cace' folder (requested)
+cache/
+
 
