@@ -1,0 +1,76 @@
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+# If you want to ignore all notebooks, uncomment the next line
+# *.ipynb
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secret files
+.env
+*.env
+credentials.json
+*.key
+
+# Python bytecode
+*.pyc
+
+# Geo / spatial data (do NOT commit large geodatabases or raw datasets)
+# Keep small sample files if needed; ignore large datasets and binary geodatabases
+Data/
+Dataset/
+*.gdb
+*.gdb/
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.sbn
+*.sbx
+*.prj
+*.cpg
+*.geojson
+
+# If you prefer to keep GeoJSON but ignore large files, remove *.geojson above
+# and instead ignore specific large files or directories.
+
+# Git LFS pointer files (if you use git-lfs)
+*.gitattributes
+old_data/
+
+
